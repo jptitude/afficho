@@ -1,0 +1,43 @@
+# OS images and backups
+*.img
+*.img.gz
+*.img.xz
+*.zip
+backup/
+backups/
+*.bak
+*before_rename*
+
+# Local user or OS configuration
+config.txt
+cmdline.txt
+.env
+.env.*
+*.key
+*.pem
+
+# Runtime state and caches
+__pycache__/
+*.pyc
+*.log
+.slides_*/
+.houston_media_sha256
+
+# Local media (only publish files you own and intentionally license)
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+slides/
+HOUSTON_V12_MEDIA/
+
+# Private directories, exports and release builds
+HOUSTON_*/
+AFFICHO_V*_EXPORT/
+*.sqlite
+*.db
+*.p12
+*.pfx
+*.p8
+*~
